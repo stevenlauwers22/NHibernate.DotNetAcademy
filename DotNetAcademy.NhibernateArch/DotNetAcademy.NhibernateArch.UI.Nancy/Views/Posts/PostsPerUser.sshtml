@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>DotNetAcademy.NhibernateArch</title>
+        <link rel="stylesheet" type="text/css" href="../../Content/App.css" />
+
+    </head>
+    
+    <body>
+        
+        <table class="datagrid">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>NbrOfPosts</th>
+            </tr>
+            @Each
+                <tr>
+                    <td>@Current.Id</td>
+                    <td>@Current.Firstname @Current.Lastname</td>
+                    <td>@Current.NbrOfPosts</td>
+                </tr>
+			@EndEach
+        </table>
+
+    </body>
+</html>

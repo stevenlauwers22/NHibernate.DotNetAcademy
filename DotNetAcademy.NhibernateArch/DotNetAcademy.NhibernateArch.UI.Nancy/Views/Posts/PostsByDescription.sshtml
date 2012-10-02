@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>DotNetAcademy.NhibernateArch</title>
+        <link rel="stylesheet" type="text/css" href="../../Content/App.css" />
+
+    </head>
+    
+    <body>
+        
+        <table class="datagrid">
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Message</th>
+                <th>PostedOn</th>
+            </tr>
+            @Each
+                <tr>
+                    <td>@Current.Id</td>
+                    <td>@Current.Description</td>
+                    <td>@Current.Message</td>
+                    <td>@Current.PostedOn</td>
+                </tr>
+			@EndEach
+        </table>
+
+    </body>
+</html>

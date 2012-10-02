@@ -1,0 +1,10 @@
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.exe.config
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.exe
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.pdb
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\Iesi.Collections.dll
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\NHibernate.dll
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\Iesi.Collections.xml
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\bin\Debug\NHibernate.xml
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\obj\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.exe
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\obj\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.pdb
+C:\Projects\DotNetAcademy.Nhibernate\DotNetAcademy.Nhibernate.PrimaryKeyStrategies\obj\Debug\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.csprojResolveAssemblyReference.cache

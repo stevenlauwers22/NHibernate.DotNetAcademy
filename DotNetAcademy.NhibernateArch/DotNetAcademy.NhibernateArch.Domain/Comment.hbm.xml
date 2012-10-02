@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="DotNetAcademy.NhibernateArch.Domain"
+                   assembly="DotNetAcademy.NhibernateArch.Domain">
+
+  <class name="Comment" table="Comment">
+    <id name="Id" access="field.camelcase-underscore">
+      <generator class="guid" />
+    </id>
+    
+    <property name="Message" />
+    <property name="PostedOn" />
+  </class>
+</hibernate-mapping>

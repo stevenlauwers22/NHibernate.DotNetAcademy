@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="DotNetAcademy.Nhibernate.MappingRelations.Domain"
+                   assembly="DotNetAcademy.Nhibernate.MappingRelations">
+
+  <class name="Post" table="Post">
+    <id name="Id" access="field.camelcase-underscore">
+      <generator class="guid" />
+    </id>
+
+    <property name="Description" />
+    <property name="Message" />
+    <property name="PostedOn" />
+    <many-to-one name="WrittenBy" column="WrittenById" class="User" />
+
+    <set name="Comments" access="field.camelcase-underscore" cascade="all-delete-orphan">
+      <key column="PostId" />
+      <one-to-many class="Comment" />
+    </set>
+
+    <set name="Tags" table="PostTag" access="field.camelcase-underscore" cascade="save-update">
+      <key column="PostId" />
+      <many-to-many class="Tag" column="TagId" />
+    </set>
+  </class>
+</hibernate-mapping>

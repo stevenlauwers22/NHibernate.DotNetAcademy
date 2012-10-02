@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license id="9aabfa69-f731-45f3-8ed9-eb943db0bbd2" expiration="2012-10-27T00:00:00.0000000" type="Trial" prof="NHProf">
+  <name>Bam Fmpt</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>t9uPjetUllpCIfe2FafVWLKRbLE=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>RaQbXd8PHlG9xLDS0OX5fq1aO/e5OQ4gesF1kUG4WevR5ZRykN+IGRLb9fd0iOo+IxwmKyXoVKPs7mZceCExwsK7iGxVkYL3OZMr7jmolRxn0iPPaX/a6vxHIA30mLishJZiPgLZgNs8OQidN6aEHPdM+UH+0wAFlikk4ylPDO4=</SignatureValue>
+  </Signature>
+</license>

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<DotNetAcademy.NhibernateArch.Contracts.GetPostsByDescription.PostDTO>
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>DotNetAcademy.NhibernateArch</title>
+        <link rel="stylesheet" type="text/css" href="../../Content/App.css" />
+
+    </head>
+    
+    <body>
+        
+        <table class="datagrid">
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Message</th>
+                <th>PostedOn</th>
+            </tr>
+            @{
+                foreach (var post in Model)
+                {
+                    <tr>
+                        <td>@post.Id</td>
+                        <td>@post.Description</td>
+                        <td>@post.Message</td>
+                        <td>@post.PostedOn</td>
+                    </tr>
+                }
+            }
+        </table>
+
+    </body>
+</html>

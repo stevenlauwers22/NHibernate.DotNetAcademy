@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="DotNetAcademy.Nhibernate.PrimaryKeyStrategies.Domain"
+                   assembly="DotNetAcademy.Nhibernate.PrimaryKeyStrategies">
+
+  <class name="PostWithHilo" table="PostWithHilo">
+    <id name="Id" access="field.camelcase-underscore">
+      <generator class="hilo">
+        <param name="max_lo">5</param>
+      </generator>
+    </id>
+
+    <property name="Description" />
+    <property name="Message" />
+    <property name="PostedOn" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>DotNetAcademy.NhibernateArch</title>
+        <link rel="stylesheet" type="text/css" href="../../Content/App.css" />
+
+    </head>
+    
+    <body>
+        
+        <ul>
+            <li><a href="/Posts/PopulateDatabase">Populate the database</a></li>
+            <li><a href="/Posts/PostsByDescription/NH">Posts container 'NH' in their description</a></li>
+            <li><a href="/Posts/PostsPerUser">Posts per user</a></li>
+        </ul>
+
+    </body>
+</html>

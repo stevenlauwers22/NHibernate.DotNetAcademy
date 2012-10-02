@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.NhibernateArch.Infrastructure", "DotNetAcademy.NhibernateArch.Infrastructure\DotNetAcademy.NhibernateArch.Infrastructure.csproj", "{56B7B129-E325-4589-B091-EA926FBA5922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.NhibernateArch.Domain", "DotNetAcademy.NhibernateArch.Domain\DotNetAcademy.NhibernateArch.Domain.csproj", "{8D32D00E-DD35-481E-B251-BA967088D56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.NhibernateArch.Contracts", "DotNetAcademy.NhibernateArch.Contracts\DotNetAcademy.NhibernateArch.Contracts.csproj", "{B84C7624-0AA7-4F17-8790-F8037230CE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.NhibernateArch.UI.Mvc", "DotNetAcademy.NhibernateArch.UI.Mvc\DotNetAcademy.NhibernateArch.UI.Mvc.csproj", "{FFA89395-CD97-4A7A-80F7-A7ACD9655767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.NhibernateArch.UI.Nancy", "DotNetAcademy.NhibernateArch.UI.Nancy\DotNetAcademy.NhibernateArch.UI.Nancy.csproj", "{2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B7B129-E325-4589-B091-EA926FBA5922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B7B129-E325-4589-B091-EA926FBA5922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B7B129-E325-4589-B091-EA926FBA5922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B7B129-E325-4589-B091-EA926FBA5922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D32D00E-DD35-481E-B251-BA967088D56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D32D00E-DD35-481E-B251-BA967088D56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D32D00E-DD35-481E-B251-BA967088D56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D32D00E-DD35-481E-B251-BA967088D56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84C7624-0AA7-4F17-8790-F8037230CE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84C7624-0AA7-4F17-8790-F8037230CE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84C7624-0AA7-4F17-8790-F8037230CE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84C7624-0AA7-4F17-8790-F8037230CE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA89395-CD97-4A7A-80F7-A7ACD9655767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA89395-CD97-4A7A-80F7-A7ACD9655767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA89395-CD97-4A7A-80F7-A7ACD9655767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA89395-CD97-4A7A-80F7-A7ACD9655767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

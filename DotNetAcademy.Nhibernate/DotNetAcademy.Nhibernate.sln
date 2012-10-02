@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.Nhibernate.MappingBasics", "DotNetAcademy.Nhibernate.MappingBasics\DotNetAcademy.Nhibernate.MappingBasics.csproj", "{396A44B4-EE06-4A16-9409-191B0BCC4D58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B707B4DE-4CF1-422A-B7E4-1C73BE226366}"
+	ProjectSection(SolutionItems) = preProject
+		packages\NHibernate.3.3.1.4000\nhibernate-configuration.xsd = packages\NHibernate.3.3.1.4000\nhibernate-configuration.xsd
+		packages\NHibernate.3.3.1.4000\nhibernate-mapping.xsd = packages\NHibernate.3.3.1.4000\nhibernate-mapping.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.Nhibernate.PrimaryKeyStrategies", "DotNetAcademy.Nhibernate.PrimaryKeyStrategies\DotNetAcademy.Nhibernate.PrimaryKeyStrategies.csproj", "{A3316D2C-AF53-4575-AAD8-F81D0F3E8D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAcademy.Nhibernate.MappingRelations", "DotNetAcademy.Nhibernate.MappingRelations\DotNetAcademy.Nhibernate.MappingRelations.csproj", "{11FBC73A-E257-440B-BBEB-5B6348E5B786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11FBC73A-E257-440B-BBEB-5B6348E5B786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FBC73A-E257-440B-BBEB-5B6348E5B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FBC73A-E257-440B-BBEB-5B6348E5B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FBC73A-E257-440B-BBEB-5B6348E5B786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396A44B4-EE06-4A16-9409-191B0BCC4D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396A44B4-EE06-4A16-9409-191B0BCC4D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396A44B4-EE06-4A16-9409-191B0BCC4D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396A44B4-EE06-4A16-9409-191B0BCC4D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3316D2C-AF53-4575-AAD8-F81D0F3E8D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3316D2C-AF53-4575-AAD8-F81D0F3E8D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3316D2C-AF53-4575-AAD8-F81D0F3E8D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3316D2C-AF53-4575-AAD8-F81D0F3E8D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
