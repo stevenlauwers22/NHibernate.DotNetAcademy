@@ -1,7 +1,0 @@
-<Modules>
-  <Module PersistentId="FFA89395-CD97-4A7A-80F7-A7ACD9655767" ModuleId="DotNetAcademy.NhibernateArch.UI.Mvc" />
-  <Module PersistentId="56B7B129-E325-4589-B091-EA926FBA5922" ModuleId="DotNetAcademy.NhibernateArch.Infrastructure" />
-  <Module PersistentId="8D32D00E-DD35-481E-B251-BA967088D56E" ModuleId="DotNetAcademy.NhibernateArch.Domain" />
-  <Module PersistentId="B84C7624-0AA7-4F17-8790-F8037230CE23" ModuleId="DotNetAcademy.NhibernateArch.Contracts" />
-  <Module PersistentId="2523F3C7-8CDA-4D96-89C3-ADFDBE6DB212" ModuleId="DotNetAcademy.NhibernateArch.UI.Nancy" />
-</Modules>

@@ -1,5 +1,0 @@
-<Modules>
-  <Module PersistentId="11FBC73A-E257-440B-BBEB-5B6348E5B786" ModuleId="DotNetAcademy.Nhibernate.MappingRelations" />
-  <Module PersistentId="396A44B4-EE06-4A16-9409-191B0BCC4D58" ModuleId="DotNetAcademy.Nhibernate.MappingBasics" />
-  <Module PersistentId="A3316D2C-AF53-4575-AAD8-F81D0F3E8D77" ModuleId="DotNetAcademy.Nhibernate.PrimaryKeyStrategies" />
-</Modules>

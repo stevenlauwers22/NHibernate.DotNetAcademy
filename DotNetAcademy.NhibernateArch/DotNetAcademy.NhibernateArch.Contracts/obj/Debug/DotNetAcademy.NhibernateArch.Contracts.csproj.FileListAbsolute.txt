@@ -1,4 +1,0 @@
-C:\Projects\DotNetAcademy.NhibernateArch\DotNetAcademy.NhibernateArch.Contracts\bin\Debug\DotNetAcademy.NhibernateArch.Contracts.dll
-C:\Projects\DotNetAcademy.NhibernateArch\DotNetAcademy.NhibernateArch.Contracts\bin\Debug\DotNetAcademy.NhibernateArch.Contracts.pdb
-C:\Projects\DotNetAcademy.NhibernateArch\DotNetAcademy.NhibernateArch.Contracts\obj\Debug\DotNetAcademy.NhibernateArch.Contracts.dll
-C:\Projects\DotNetAcademy.NhibernateArch\DotNetAcademy.NhibernateArch.Contracts\obj\Debug\DotNetAcademy.NhibernateArch.Contracts.pdb
