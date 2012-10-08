@@ -1,3 +1,4 @@
+using System;
 using Castle.Windsor;
 using DotNetAcademy.NhibernateArch.Infrastructure.Handlers.Exceptions;
 
@@ -18,7 +19,14 @@ namespace DotNetAcademy.NhibernateArch.Infrastructure.Handlers
             if (commandHandler == null)
                 throw new HandlerNotFoundException(typeof(TCommand));
 
-            commandHandler.Handle(command);
+            try
+            {
+                commandHandler.Handle(command);
+            }
+            finally
+            {
+                _windsorContainer.Release(commandHandler);
+            }
         }
 
         public TResult Dispatch<TRequest, TResult>(TRequest request)
@@ -27,8 +35,15 @@ namespace DotNetAcademy.NhibernateArch.Infrastructure.Handlers
             if (queryHandler == null)
                 throw new HandlerNotFoundException(typeof(TRequest));
 
-            var response = queryHandler.Handle(request);
-            return response;
+            try
+            {
+                var response = queryHandler.Handle(request);
+                return response;
+            }
+            finally
+            {
+                _windsorContainer.Release(queryHandler);
+            }
         }
     }
 }
