@@ -1,4 +1,3 @@
-using System;
 using Castle.Windsor;
 using DotNetAcademy.NhibernateArch.Infrastructure.Handlers.Exceptions;
 
@@ -13,12 +12,16 @@ namespace DotNetAcademy.NhibernateArch.Infrastructure.Handlers
             _windsorContainer = windsorContainer;
         }
 
-        public void Dispatch<TCommand>(TCommand command) 
+        public void Dispatch<TCommand>(TCommand command)
         {
-            var commandHandler = _windsorContainer.Resolve<ICommandHandler<TCommand>>();
-            if (commandHandler == null)
-                throw new HandlerNotFoundException(typeof(TCommand));
+            var commandHandlerType = typeof(ICommandHandler<TCommand>);
+            var commandHandlerIsRegistered = _windsorContainer.Kernel.HasComponent(commandHandlerType);
+            if (!commandHandlerIsRegistered)
+            {
+                throw new HandlerNotFoundException(commandHandlerType);
+            }
 
+            var commandHandler = (ICommandHandler<TCommand>) _windsorContainer.Resolve(commandHandlerType);
             try
             {
                 commandHandler.Handle(command);
@@ -31,14 +34,18 @@ namespace DotNetAcademy.NhibernateArch.Infrastructure.Handlers
 
         public TResult Dispatch<TRequest, TResult>(TRequest request)
         {
-            var queryHandler = _windsorContainer.Resolve<IQueryHandler<TRequest, TResult>>();
-            if (queryHandler == null)
-                throw new HandlerNotFoundException(typeof(TRequest));
+            var queryHandlerType = typeof(IQueryHandler<TRequest, TResult>);
+            var queryHandlerIsRegistered = _windsorContainer.Kernel.HasComponent(queryHandlerType);
+            if (!queryHandlerIsRegistered)
+            {
+                throw new HandlerNotFoundException(queryHandlerType);
+            }
 
+            var queryHandler = (IQueryHandler<TRequest, TResult>)_windsorContainer.Resolve(queryHandlerType);
             try
             {
-                var response = queryHandler.Handle(request);
-                return response;
+                var result = queryHandler.Handle(request);
+                return result;
             }
             finally
             {

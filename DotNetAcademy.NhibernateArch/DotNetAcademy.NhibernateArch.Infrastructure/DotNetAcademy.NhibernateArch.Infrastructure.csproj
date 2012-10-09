@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Handlers\Dispatcher.cs" />
-    <Compile Include="Handlers\Exceptions\CommandHandlerNotFoundException.cs" />
+    <Compile Include="Handlers\Exceptions\HandlerNotFoundException.cs" />
     <Compile Include="Handlers\IDispatcher.cs" />
     <Compile Include="Handlers\IHandler.cs" />
     <Compile Include="Windsor\WindsorActionInvoker.cs" />
